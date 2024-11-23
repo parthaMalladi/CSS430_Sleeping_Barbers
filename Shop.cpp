@@ -89,11 +89,11 @@ void Shop::leaveShop(int id, int barber_id)
    printCustomer(id, "wait for the hair-cut to be done");
 
    while (customers[id]->myBarber != -1) {
-      pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+      pthread_cond_wait(&customers[id]->customerSignal, &mutex_);
    }
 
-   customers[id]->isGettingServiced = false;
    customers[id]->hasPaid = true;
+   pthread_cond_signal(&barbers[barber_id]->barberSignal);
    printCustomer(id, "says good-bye to the barber.");
 
    pthread_mutex_unlock(&mutex_);
@@ -102,9 +102,56 @@ void Shop::leaveShop(int id, int barber_id)
 void Shop::helloCustomer(int barber_id) 
 {
    pthread_mutex_lock(&mutex_);
+
+   if (barbers[barber_id]->myCustomer == -1) {
+      printBarber(barber_id, "sleeps because of no customers.");
+      available_barbers_.push(barber_id);
+
+      while (barbers[barber_id]->myCustomer == -1) {
+         pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+      }
+   }
+
+   while (customers[barbers[barber_id]->myCustomer]->isGettingServiced != true) {
+      pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+   }
+
+   printBarber(barber_id, "starts a hair-cut service for " + int2string(barbers[barber_id]->myCustomer));
+   pthread_mutex_unlock( &mutex_ );
 }
 
 void Shop::byeCustomer(int barber_id) 
 {
+   pthread_mutex_lock(&mutex_);
+   int currCustomer = barbers[barber_id]->myCustomer;
+   printBarber(barber_id, "says he's done with a hair-cut service for " + int2string(currCustomer));
+   customers[currCustomer]->isGettingServiced = false;
+   customers[currCustomer]->myBarber = -1;
 
+   pthread_cond_signal(&customers[currCustomer]->customerSignal);
+
+   while (customers[currCustomer]->hasPaid == false) {
+      pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+   }
+
+   barbers[barber_id]->myCustomer = -1;
+   delete customers[currCustomer];
+   customers.erase(currCustomer);
+
+   printBarber(barber_id, "calls in another customer");
+
+   if (!waiting_chairs_.empty()) {
+      int client = waiting_chairs_.front();
+      waiting_chairs_.pop();
+      
+      Customer* c = new Customer();
+      c->myId = client;
+      customers[client] = c;
+      barbers[barber_id]->myCustomer = client;
+      customers[client]->isGettingServiced = true;
+
+      pthread_cond_signal(&customers[client]->customerSignal);
+   }
+
+   pthread_mutex_unlock( &mutex_ );
 }
