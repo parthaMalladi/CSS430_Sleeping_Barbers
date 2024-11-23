@@ -14,6 +14,7 @@ using namespace std;
 class Shop
 {
 public:
+   // constructor with parameters
    Shop(int num_barbers, int num_chairs) : 
       max_waiting_cust_(num_chairs),
       max_barbers_(num_barbers),
@@ -22,6 +23,7 @@ public:
       init(); 
    };
 
+   // default constructor
    Shop() : 
       max_waiting_cust_(kDefaultNumChairs),
       max_barbers_(kDefaultNumBarbers),
@@ -30,8 +32,10 @@ public:
       init(); 
    };
 
+   // destructor
    ~Shop();
 
+   // functions
    int visitShop(int id);
    void leaveShop(int id, int barber_id);
    void helloCustomer(int barber_id);
@@ -46,6 +50,7 @@ public:
    queue<int> available_barbers_;
    int custDrops;
 
+   // customer object with a signal and various states
    struct Customer {
       int myId;
       int myBarber;
@@ -62,6 +67,7 @@ public:
       }
    };
 
+   // barber object with a signal
    struct Barber {
       int myId;
       int myCustomer;
@@ -74,9 +80,13 @@ public:
       }
    };
 
+   // vector to keep track of barbers
    vector<Barber*> barbers;
+
+   // map to keep track of customers based on ID
    map<int, Customer> customers;
-  
+   
+   // helper functions
    void init();
    string int2string(int i);
    void printCustomer(int person, string message);
