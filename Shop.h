@@ -49,15 +49,13 @@ public:
    struct Customer {
       int myId;
       int myBarber;
+      int state;  // 1 is waiting, 2 is getting serviced, 3 is has paid
       pthread_cond_t customerSignal;
-      bool isGettingServiced;
-      bool hasPaid;
 
       Customer() {
          myId = -1;
          myBarber = -1;
-         isGettingServiced = false;
-         hasPaid = false;
+         state = 1;
          pthread_cond_init(&customerSignal, NULL);
       }
    };
@@ -74,8 +72,8 @@ public:
       }
    };
 
-   map<int, Barber*> barbers;
-   map<int, Customer*> customers;
+   vector<Barber*> barbers;
+   map<int, Customer> customers;
   
    void init();
    string int2string(int i);
