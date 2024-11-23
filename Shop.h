@@ -79,5 +79,7 @@ public:
    string int2string(int i);
    void printCustomer(int person, string message);
    void printBarber(int person, string message);
+
+   Barber* getBarber(int barber_id);
 };
 #endif

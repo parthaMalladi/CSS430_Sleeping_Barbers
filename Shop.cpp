@@ -39,6 +39,19 @@ int Shop::get_cust_drops() const
    return custDrops;
 }
 
+Shop::Barber* Shop::getBarber(int barber_id)
+{
+    for (int i = 0; i < max_barbers_; i++)
+    {
+        if (barbers[i]->myId == barber_id)
+        {
+            return barbers[i];
+        }
+    }
+
+    return NULL;
+}
+
 int Shop::visitShop(int id) 
 {
    pthread_mutex_lock(&mutex_);
@@ -52,26 +65,27 @@ int Shop::visitShop(int id)
    }
 
    customers[id] = Customer();
+   customers[id].myId = id;
 
    if (available_barbers_.empty()) {
       waiting_chairs_.push(id);
       printCustomer(id, "takes a waiting chair. # waiting seats available = " + int2string(max_waiting_cust_ - waiting_chairs_.size()));
 
-      while (customers[id]->myBarber == -1) {
-         pthread_cond_wait(&customers[id]->customerSignal, &mutex_);
+      while (customers[id].myBarber == -1) {
+         pthread_cond_wait(&customers[id].customerSignal, &mutex_);
       }
-      barber = customers[id]->myBarber;
+      barber = customers[id].myBarber;
    } else {
       barber = available_barbers_.front();
       available_barbers_.pop();
-      customers[id]->myBarber = barber;
-      barbers[barber]->myCustomer = id;
+      customers[id].myBarber = barber;
+      getBarber(barber)->myCustomer = id;
    }
 
    printCustomer(id, "moves to the service chair. # waiting seats available = " + int2string(max_waiting_cust_ - waiting_chairs_.size()));
 
-   customers[id]->state = 2;
-   pthread_cond_signal(&barbers[barber]->barberSignal);
+   customers[id].state = 2;
+   pthread_cond_signal(&getBarber(barber)->barberSignal);
    pthread_mutex_unlock(&mutex_);
 
    return barber;
@@ -82,14 +96,13 @@ void Shop::leaveShop(int id, int barber_id)
    pthread_mutex_lock(&mutex_);
    printCustomer(id, "wait for the hair-cut to be done");
 
-   while (customers[id]->myBarber != -1) {
-      pthread_cond_wait(&customers[id]->customerSignal, &mutex_);
+   while (customers[id].myBarber != -1) {
+      pthread_cond_wait(&customers[id].customerSignal, &mutex_);
    }
 
-   customers[id]->state = 3;
-
    printCustomer(id, "says good-bye to the barber.");
-   pthread_cond_signal(&barbers[barber_id]->barberSignal);
+   customers[id].state = 3;
+   pthread_cond_signal(&getBarber(barber_id)->barberSignal);
 
    pthread_mutex_unlock(&mutex_);
 }
@@ -98,51 +111,46 @@ void Shop::helloCustomer(int barber_id)
 {
    pthread_mutex_lock(&mutex_);
 
-   if (barbers[barber_id]->myCustomer == -1) {
+   if (getBarber(barber_id)->myCustomer == -1) {
       printBarber(barber_id, "sleeps because of no customers.");
       available_barbers_.push(barber_id);
 
-      while (barbers[barber_id]->myCustomer == -1) {
-         pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+      while (getBarber(barber_id)->myCustomer == -1) {
+         pthread_cond_wait(&getBarber(barber_id)->barberSignal, &mutex_);
       }
    }
 
-   while (customers[barbers[barber_id]->myCustomer]->state != 2) {
-      pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+   while (customers[getBarber(barber_id)->myCustomer].state != 2) {
+      pthread_cond_wait(&getBarber(barber_id)->barberSignal, &mutex_);
    }
 
-   printBarber(barber_id, "starts a hair-cut service for " + int2string(barbers[barber_id]->myCustomer));
-   pthread_mutex_unlock( &mutex_ );
+   printBarber(barber_id, "starts a hair-cut service for " + int2string(getBarber(barber_id)->myCustomer));
+   pthread_mutex_unlock(&mutex_);
 }
 
 void Shop::byeCustomer(int barber_id) 
 {
    pthread_mutex_lock(&mutex_);
-   int currCustomer = barbers[barber_id]->myCustomer;
-   printBarber(barber_id, "says he's done with a hair-cut service for " + int2string(currCustomer));
+   printBarber(barber_id, "says he's done with a hair-cut service for " + int2string(getBarber(barber_id)->myCustomer));
 
-   customers[currCustomer]->myBarber = -1;
+   customers[getBarber(barber_id)->myCustomer].myBarber = -1;
 
-   pthread_cond_signal(&customers[currCustomer]->customerSignal);
+   pthread_cond_signal(&customers[getBarber(barber_id)->myCustomer].customerSignal);
 
-   while (customers[currCustomer]->state != 3) {
-      pthread_cond_wait(&barbers[barber_id]->barberSignal, &mutex_);
+   while (customers[getBarber(barber_id)->myCustomer].state != 3) {
+      pthread_cond_wait(&getBarber(barber_id)->barberSignal, &mutex_);
    }
 
-   barbers[barber_id]->myCustomer = -1;
+   getBarber(barber_id)->myCustomer = -1;
    printBarber(barber_id, "calls in another customer");
 
    if (!waiting_chairs_.empty()) {
       int client = waiting_chairs_.front();
       waiting_chairs_.pop();
       
-      Customer* c = new Customer();
-      c->myId = client;
-      customers[client] = c;
-      barbers[barber_id]->myCustomer = client;
-      customers[client]->myBarber = barber_id;
-
-      pthread_cond_signal(&customers[client]->customerSignal);
+      getBarber(barber_id)->myCustomer = client;
+      customers[client].myBarber = barber_id;
+      pthread_cond_signal(&customers[client].customerSignal);
    }
 
    pthread_mutex_unlock( &mutex_ );
