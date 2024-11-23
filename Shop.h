@@ -49,13 +49,15 @@ public:
    struct Customer {
       int myId;
       int myBarber;
-      int state;  // 1 is waiting, 2 is getting serviced, 3 is has paid
+      bool gettingHaircut;
+      bool paid;
       pthread_cond_t customerSignal;
 
       Customer() {
          myId = -1;
          myBarber = -1;
-         state = 1;
+         gettingHaircut = false;
+         paid = false;
          pthread_cond_init(&customerSignal, NULL);
       }
    };
@@ -79,7 +81,5 @@ public:
    string int2string(int i);
    void printCustomer(int person, string message);
    void printBarber(int person, string message);
-
-   Barber* getBarber(int barber_id);
 };
 #endif

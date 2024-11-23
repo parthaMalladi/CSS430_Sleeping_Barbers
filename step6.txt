@@ -1,0 +1,1406 @@
+barber[0]: sleeps because of no customers.
+barber[1]: sleeps because of no customers.
+barber[2]: sleeps because of no customers.
+barber[3]: sleeps because of no customers.
+barber[4]: sleeps because of no customers.
+customer[1]: moves to the service chair. # waiting seats available = 0
+customer[1]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 1
+customer[2]: moves to the service chair. # waiting seats available = 0
+customer[2]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 2
+barber[0]: says he's done with a hair-cut service for 1
+customer[1]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[3]: moves to the service chair. # waiting seats available = 0
+customer[3]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 3
+barber[1]: says he's done with a hair-cut service for 2
+customer[2]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[4]: moves to the service chair. # waiting seats available = 0
+customer[4]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 4
+barber[2]: says he's done with a hair-cut service for 3
+customer[3]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[5]: moves to the service chair. # waiting seats available = 0
+customer[5]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 5
+barber[3]: says he's done with a hair-cut service for 4
+customer[4]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[6]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 6
+customer[6]: wait for the hair-cut to be done
+barber[4]: says he's done with a hair-cut service for 5
+customer[5]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[7]: moves to the service chair. # waiting seats available = 0
+customer[7]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 7
+barber[0]: says he's done with a hair-cut service for 6
+customer[6]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[8]: moves to the service chair. # waiting seats available = 0
+customer[8]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 8
+barber[1]: says he's done with a hair-cut service for 7
+customer[7]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[9]: moves to the service chair. # waiting seats available = 0
+customer[9]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 9
+barber[2]: says he's done with a hair-cut service for 8
+customer[8]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[10]: moves to the service chair. # waiting seats available = 0
+customer[10]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 10
+customer[11]: moves to the service chair. # waiting seats available = 0
+customer[11]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 11
+barber[3]: says he's done with a hair-cut service for 9
+customer[9]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[12]: moves to the service chair. # waiting seats available = 0
+customer[12]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 12
+barber[4]: says he's done with a hair-cut service for 10
+customer[10]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 11
+customer[11]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 12
+customer[12]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[13]: moves to the service chair. # waiting seats available = 0
+customer[13]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 13
+customer[14]: moves to the service chair. # waiting seats available = 0
+customer[14]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 14
+customer[15]: moves to the service chair. # waiting seats available = 0
+customer[15]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 15
+barber[2]: says he's done with a hair-cut service for 13
+customer[13]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 14
+customer[14]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[16]: moves to the service chair. # waiting seats available = 0
+customer[16]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 16
+barber[4]: says he's done with a hair-cut service for 15
+customer[15]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[17]: moves to the service chair. # waiting seats available = 0
+customer[17]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 17
+barber[0]: says he's done with a hair-cut service for 16
+customer[16]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[18]: moves to the service chair. # waiting seats available = 0
+customer[18]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 18
+customer[19]: moves to the service chair. # waiting seats available = 0
+customer[19]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 19
+barber[1]: says he's done with a hair-cut service for 17
+customer[17]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 18
+customer[18]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 19
+customer[19]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[20]: moves to the service chair. # waiting seats available = 0
+customer[20]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 20
+customer[21]: moves to the service chair. # waiting seats available = 0
+customer[21]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 21
+customer[22]: moves to the service chair. # waiting seats available = 0
+customer[22]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 22
+barber[4]: says he's done with a hair-cut service for 20
+customer[20]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 21
+customer[21]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[23]: moves to the service chair. # waiting seats available = 0
+customer[23]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 23
+barber[1]: says he's done with a hair-cut service for 22
+customer[22]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[24]: moves to the service chair. # waiting seats available = 0
+customer[24]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 24
+barber[2]: says he's done with a hair-cut service for 23
+customer[23]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[25]: moves to the service chair. # waiting seats available = 0
+customer[25]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 25
+barber[3]: says he's done with a hair-cut service for 24
+customer[24]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[26]: moves to the service chair. # waiting seats available = 0
+customer[26]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 26
+barber[4]: says he's done with a hair-cut service for 25
+customer[25]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[27]: moves to the service chair. # waiting seats available = 0
+customer[27]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 27
+barber[0]: says he's done with a hair-cut service for 26
+customer[26]: says good-bye to the barber.
+customer[28]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 28
+customer[28]: wait for the hair-cut to be done
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[29]: moves to the service chair. # waiting seats available = 0
+customer[29]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 29
+customer[30]: moves to the service chair. # waiting seats available = 0
+customer[30]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 30
+barber[1]: says he's done with a hair-cut service for 27
+customer[27]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 28
+customer[28]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 29
+customer[29]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[31]: moves to the service chair. # waiting seats available = 0
+customer[31]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 31
+barber[4]: says he's done with a hair-cut service for 30
+customer[30]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[32]: moves to the service chair. # waiting seats available = 0
+customer[32]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 32
+customer[33]: moves to the service chair. # waiting seats available = 0
+customer[33]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 33
+barber[0]: says he's done with a hair-cut service for 31
+customer[31]: says good-bye to the barber.
+customer[34]: moves to the service chair. # waiting seats available = 0
+customer[34]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 34
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[35]: moves to the service chair. # waiting seats available = 0
+customer[35]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 35
+customer[36]: moves to the service chair. # waiting seats available = 0
+customer[36]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 36
+barber[1]: says he's done with a hair-cut service for 32
+customer[32]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 33
+customer[33]: says good-bye to the barber.
+customer[37]: moves to the service chair. # waiting seats available = 0
+barber[1]: starts a hair-cut service for 37
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[37]: wait for the hair-cut to be done
+barber[3]: says he's done with a hair-cut service for 34
+customer[34]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 35
+customer[35]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[38]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 38
+customer[38]: wait for the hair-cut to be done
+customer[39]: moves to the service chair. # waiting seats available = 0
+customer[39]: wait for the hair-cut to be done
+barber[0]: says he's done with a hair-cut service for 36
+customer[36]: says good-bye to the barber.
+barber[3]: starts a hair-cut service for 39
+customer[40]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 40
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[40]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 37
+customer[37]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[41]: moves to the service chair. # waiting seats available = 0
+customer[41]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 41
+barber[2]: says he's done with a hair-cut service for 38
+customer[42]: moves to the service chair. # waiting seats available = 0
+barber[1]: starts a hair-cut service for 42
+customer[38]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[3]: says he's done with a hair-cut service for 39
+customer[39]: says good-bye to the barber.
+barber[3]: calls in another customer
+customer[42]: wait for the hair-cut to be done
+barber[2]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 40
+customer[40]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[3]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 41
+customer[41]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[43]: moves to the service chair. # waiting seats available = 0
+customer[43]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 43
+barber[1]: says he's done with a hair-cut service for 42
+customer[42]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[44]: moves to the service chair. # waiting seats available = 0
+customer[44]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 44
+barber[2]: says he's done with a hair-cut service for 43
+customer[43]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[45]: moves to the service chair. # waiting seats available = 0
+customer[45]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 45
+barber[4]: says he's done with a hair-cut service for 44
+customer[44]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[46]: moves to the service chair. # waiting seats available = 0
+customer[46]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 46
+customer[47]: moves to the service chair. # waiting seats available = 0
+customer[47]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 47
+barber[3]: says he's done with a hair-cut service for 45
+customer[45]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[48]: moves to the service chair. # waiting seats available = 0
+customer[48]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 48
+barber[0]: says he's done with a hair-cut service for 46
+customer[46]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[49]: moves to the service chair. # waiting seats available = 0
+customer[49]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 49
+barber[1]: says he's done with a hair-cut service for 47
+customer[47]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[50]: moves to the service chair. # waiting seats available = 0
+customer[50]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 50
+barber[2]: says he's done with a hair-cut service for 48
+customer[48]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[51]: moves to the service chair. # waiting seats available = 0
+customer[51]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 51
+barber[4]: says he's done with a hair-cut service for 49
+customer[49]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 50
+customer[52]: moves to the service chair. # waiting seats available = 0
+barber[1]: starts a hair-cut service for 52
+customer[52]: wait for the hair-cut to be done
+customer[50]: says good-bye to the barber.
+customer[53]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 53
+customer[53]: wait for the hair-cut to be done
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 51
+customer[51]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 52
+customer[52]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[54]: moves to the service chair. # waiting seats available = 0
+customer[54]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 54
+barber[2]: says he's done with a hair-cut service for 53
+customer[53]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[55]: moves to the service chair. # waiting seats available = 0
+customer[55]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 55
+barber[4]: says he's done with a hair-cut service for 54
+customer[54]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[56]: moves to the service chair. # waiting seats available = 0
+customer[56]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 56
+barber[3]: says he's done with a hair-cut service for 55
+customer[55]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[57]: moves to the service chair. # waiting seats available = 0
+barber[0]: says he's done with a hair-cut service for 56
+customer[56]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[1]: starts a hair-cut service for 57
+barber[0]: sleeps because of no customers.
+customer[57]: wait for the hair-cut to be done
+customer[58]: moves to the service chair. # waiting seats available = 0
+customer[58]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 58
+barber[1]: says he's done with a hair-cut service for 57
+customer[57]: says good-bye to the barber.
+barber[1]: calls in another customer
+customer[59]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 59
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 58
+customer[60]: moves to the service chair. # waiting seats available = 0
+barber[3]: starts a hair-cut service for 60
+customer[59]: wait for the hair-cut to be done
+customer[60]: wait for the hair-cut to be done
+customer[58]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[61]: moves to the service chair. # waiting seats available = 0
+customer[61]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 61
+barber[4]: says he's done with a hair-cut service for 59
+customer[59]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 60
+customer[60]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[62]: moves to the service chair. # waiting seats available = 0
+customer[62]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 62
+barber[0]: says he's done with a hair-cut service for 61
+customer[61]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[63]: moves to the service chair. # waiting seats available = 0
+customer[63]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 63
+customer[64]: moves to the service chair. # waiting seats available = 0
+customer[64]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 64
+customer[65]: moves to the service chair. # waiting seats available = 0
+customer[65]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 62
+customer[62]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[3]: starts a hair-cut service for 65
+barber[2]: says he's done with a hair-cut service for 63
+customer[63]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[66]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 66
+barber[4]: says he's done with a hair-cut service for 64
+customer[64]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[66]: wait for the hair-cut to be done
+barber[3]: says he's done with a hair-cut service for 65
+customer[65]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[67]: moves to the service chair. # waiting seats available = 0
+customer[67]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 67
+barber[0]: says he's done with a hair-cut service for 66
+customer[66]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[68]: moves to the service chair. # waiting seats available = 0
+customer[68]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 68
+barber[1]: says he's done with a hair-cut service for 67
+customer[67]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[69]: moves to the service chair. # waiting seats available = 0
+customer[69]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 69
+barber[2]: says he's done with a hair-cut service for 68
+customer[68]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[70]: moves to the service chair. # waiting seats available = 0
+customer[70]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 70
+barber[4]: says he's done with a hair-cut service for 69
+customer[71]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 71
+customer[69]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[71]: wait for the hair-cut to be done
+barber[3]: says he's done with a hair-cut service for 70
+customer[70]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[72]: moves to the service chair. # waiting seats available = 0
+customer[72]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 72
+barber[0]: says he's done with a hair-cut service for 71
+customer[71]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[73]: moves to the service chair. # waiting seats available = 0
+customer[73]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 73
+barber[1]: says he's done with a hair-cut service for 72
+customer[72]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[74]: moves to the service chair. # waiting seats available = 0
+customer[74]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 74
+barber[2]: says he's done with a hair-cut service for 73
+customer[73]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[75]: moves to the service chair. # waiting seats available = 0
+customer[75]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 75
+barber[4]: says he's done with a hair-cut service for 74
+customer[74]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[76]: moves to the service chair. # waiting seats available = 0
+customer[76]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 76
+customer[77]: moves to the service chair. # waiting seats available = 0
+customer[77]: wait for the hair-cut to be done
+barber[3]: says he's done with a hair-cut service for 75
+barber[1]: starts a hair-cut service for 77
+customer[75]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[78]: moves to the service chair. # waiting seats available = 0
+customer[78]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 78
+barber[0]: says he's done with a hair-cut service for 76
+customer[79]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 79
+customer[76]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[79]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 77
+customer[77]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[80]: moves to the service chair. # waiting seats available = 0
+customer[80]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 80
+barber[2]: says he's done with a hair-cut service for 78
+customer[78]: says good-bye to the barber.
+customer[81]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 81
+barber[2]: calls in another customer
+barber[4]: says he's done with a hair-cut service for 79
+customer[79]: says good-bye to the barber.
+barber[4]: calls in another customer
+customer[81]: wait for the hair-cut to be done
+barber[2]: sleeps because of no customers.
+barber[4]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 80
+customer[80]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[82]: moves to the service chair. # waiting seats available = 0
+customer[82]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 82
+barber[0]: says he's done with a hair-cut service for 81
+customer[81]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[83]: moves to the service chair. # waiting seats available = 0
+customer[83]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 83
+customer[84]: moves to the service chair. # waiting seats available = 0
+customer[84]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 84
+barber[1]: says he's done with a hair-cut service for 82
+customer[82]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 83
+customer[83]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[85]: moves to the service chair. # waiting seats available = 0
+customer[85]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 85
+barber[4]: says he's done with a hair-cut service for 84
+customer[84]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[86]: moves to the service chair. # waiting seats available = 0
+customer[86]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 86
+barber[3]: says he's done with a hair-cut service for 85
+customer[85]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[87]: moves to the service chair. # waiting seats available = 0
+customer[87]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 87
+barber[0]: says he's done with a hair-cut service for 86
+customer[88]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 88
+customer[88]: wait for the hair-cut to be done
+customer[86]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 87
+customer[87]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[89]: moves to the service chair. # waiting seats available = 0
+customer[89]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 89
+barber[2]: says he's done with a hair-cut service for 88
+customer[88]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[90]: moves to the service chair. # waiting seats available = 0
+customer[90]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 90
+barber[4]: says he's done with a hair-cut service for 89
+customer[89]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[91]: moves to the service chair. # waiting seats available = 0
+customer[91]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 91
+barber[3]: says he's done with a hair-cut service for 90
+customer[90]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[92]: moves to the service chair. # waiting seats available = 0
+customer[92]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 92
+customer[93]: moves to the service chair. # waiting seats available = 0
+customer[93]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 93
+barber[0]: says he's done with a hair-cut service for 91
+customer[91]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[94]: moves to the service chair. # waiting seats available = 0
+customer[94]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 94
+barber[1]: says he's done with a hair-cut service for 92
+customer[92]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 93
+customer[93]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[95]: moves to the service chair. # waiting seats available = 0
+customer[95]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 95
+customer[96]: moves to the service chair. # waiting seats available = 0
+customer[96]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 96
+barber[4]: says he's done with a hair-cut service for 94
+customer[94]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[97]: moves to the service chair. # waiting seats available = 0
+customer[97]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 97
+barber[3]: says he's done with a hair-cut service for 95
+customer[95]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[98]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 98
+barber[0]: says he's done with a hair-cut service for 96
+customer[96]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[99]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 99
+customer[98]: wait for the hair-cut to be done
+customer[99]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 97
+customer[97]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[100]: moves to the service chair. # waiting seats available = 0
+customer[100]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 100
+barber[2]: says he's done with a hair-cut service for 98
+customer[98]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 99
+customer[99]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[101]: moves to the service chair. # waiting seats available = 0
+customer[101]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 101
+barber[3]: says he's done with a hair-cut service for 100
+customer[100]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[102]: moves to the service chair. # waiting seats available = 0
+customer[102]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 102
+barber[0]: says he's done with a hair-cut service for 101
+customer[101]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[103]: moves to the service chair. # waiting seats available = 0
+customer[103]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 103
+customer[104]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 104
+barber[1]: says he's done with a hair-cut service for 102
+customer[102]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[104]: wait for the hair-cut to be done
+customer[105]: moves to the service chair. # waiting seats available = 0
+customer[105]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 105
+barber[2]: says he's done with a hair-cut service for 103
+customer[103]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 104
+customer[104]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[106]: moves to the service chair. # waiting seats available = 0
+customer[106]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 106
+customer[107]: moves to the service chair. # waiting seats available = 0
+customer[107]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 107
+barber[3]: says he's done with a hair-cut service for 105
+customer[105]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 106
+customer[106]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[108]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 108
+customer[108]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 107
+customer[107]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[109]: moves to the service chair. # waiting seats available = 0
+customer[109]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 109
+customer[110]: moves to the service chair. # waiting seats available = 0
+customer[110]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 110
+barber[2]: says he's done with a hair-cut service for 108
+customer[108]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 109
+customer[109]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[111]: moves to the service chair. # waiting seats available = 0
+customer[111]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 111
+barber[3]: says he's done with a hair-cut service for 110
+customer[110]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[112]: moves to the service chair. # waiting seats available = 0
+customer[112]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 112
+barber[0]: says he's done with a hair-cut service for 111
+customer[111]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[113]: moves to the service chair. # waiting seats available = 0
+customer[113]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 113
+customer[114]: moves to the service chair. # waiting seats available = 0
+customer[114]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 114
+barber[1]: says he's done with a hair-cut service for 112
+customer[112]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[115]: moves to the service chair. # waiting seats available = 0
+customer[115]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 115
+barber[2]: says he's done with a hair-cut service for 113
+customer[113]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[116]: moves to the service chair. # waiting seats available = 0
+customer[116]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 116
+barber[4]: says he's done with a hair-cut service for 114
+customer[114]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 115
+customer[115]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[117]: moves to the service chair. # waiting seats available = 0
+customer[117]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 117
+barber[0]: says he's done with a hair-cut service for 116
+customer[116]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[118]: moves to the service chair. # waiting seats available = 0
+customer[118]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 118
+barber[1]: says he's done with a hair-cut service for 117
+customer[117]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[119]: moves to the service chair. # waiting seats available = 0
+customer[119]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 119
+barber[2]: says he's done with a hair-cut service for 118
+customer[118]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[120]: moves to the service chair. # waiting seats available = 0
+customer[120]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 120
+barber[4]: says he's done with a hair-cut service for 119
+customer[119]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[121]: moves to the service chair. # waiting seats available = 0
+customer[121]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 121
+barber[3]: says he's done with a hair-cut service for 120
+customer[120]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[122]: moves to the service chair. # waiting seats available = 0
+customer[122]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 122
+customer[123]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 123
+customer[123]: wait for the hair-cut to be done
+barber[0]: says he's done with a hair-cut service for 121
+customer[121]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[124]: moves to the service chair. # waiting seats available = 0
+customer[124]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 124
+customer[125]: moves to the service chair. # waiting seats available = 0
+customer[125]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 125
+barber[1]: says he's done with a hair-cut service for 122
+customer[122]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: says he's done with a hair-cut service for 123
+customer[123]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[126]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 126
+barber[4]: says he's done with a hair-cut service for 124
+customer[124]: says good-bye to the barber.
+barber[4]: calls in another customer
+customer[126]: wait for the hair-cut to be done
+barber[4]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 125
+customer[125]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[127]: moves to the service chair. # waiting seats available = 0
+customer[127]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 127
+barber[0]: says he's done with a hair-cut service for 126
+customer[126]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[128]: moves to the service chair. # waiting seats available = 0
+customer[128]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 128
+barber[1]: says he's done with a hair-cut service for 127
+customer[127]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[129]: moves to the service chair. # waiting seats available = 0
+customer[129]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 129
+barber[2]: says he's done with a hair-cut service for 128
+customer[128]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[130]: moves to the service chair. # waiting seats available = 0
+customer[130]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 130
+barber[4]: says he's done with a hair-cut service for 129
+customer[129]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[131]: moves to the service chair. # waiting seats available = 0
+customer[131]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 131
+barber[3]: says he's done with a hair-cut service for 130
+customer[130]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[132]: moves to the service chair. # waiting seats available = 0
+customer[132]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 132
+barber[0]: says he's done with a hair-cut service for 131
+customer[131]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[133]: moves to the service chair. # waiting seats available = 0
+customer[133]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 133
+barber[1]: says he's done with a hair-cut service for 132
+customer[132]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[134]: moves to the service chair. # waiting seats available = 0
+customer[134]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 134
+barber[2]: says he's done with a hair-cut service for 133
+customer[133]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[135]: moves to the service chair. # waiting seats available = 0
+customer[135]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 135
+barber[4]: says he's done with a hair-cut service for 134
+customer[134]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[136]: moves to the service chair. # waiting seats available = 0
+customer[136]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 136
+barber[3]: says he's done with a hair-cut service for 135
+customer[135]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[137]: moves to the service chair. # waiting seats available = 0
+customer[137]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 137
+barber[0]: says he's done with a hair-cut service for 136
+customer[136]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[138]: moves to the service chair. # waiting seats available = 0
+customer[138]: wait for the hair-cut to be done
+barber[1]: says he's done with a hair-cut service for 137
+customer[137]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+barber[2]: starts a hair-cut service for 138
+customer[139]: moves to the service chair. # waiting seats available = 0
+customer[139]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 139
+customer[140]: moves to the service chair. # waiting seats available = 0
+customer[140]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 140
+barber[2]: says he's done with a hair-cut service for 138
+customer[138]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[4]: says he's done with a hair-cut service for 139
+customer[139]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[141]: moves to the service chair. # waiting seats available = 0
+customer[141]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 141
+barber[3]: says he's done with a hair-cut service for 140
+customer[140]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[142]: moves to the service chair. # waiting seats available = 0
+customer[142]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 142
+barber[0]: says he's done with a hair-cut service for 141
+customer[141]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[143]: moves to the service chair. # waiting seats available = 0
+customer[143]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 143
+barber[1]: says he's done with a hair-cut service for 142
+customer[142]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[144]: moves to the service chair. # waiting seats available = 0
+customer[144]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 144
+barber[2]: says he's done with a hair-cut service for 143
+customer[143]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[145]: moves to the service chair. # waiting seats available = 0
+customer[145]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 145
+customer[146]: moves to the service chair. # waiting seats available = 0
+customer[146]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 146
+barber[4]: says he's done with a hair-cut service for 144
+customer[144]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[147]: moves to the service chair. # waiting seats available = 0
+customer[147]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 147
+customer[148]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 148
+customer[148]: wait for the hair-cut to be done
+barber[0]: says he's done with a hair-cut service for 146
+customer[146]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 145
+customer[145]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 147
+customer[147]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[149]: moves to the service chair. # waiting seats available = 0
+customer[149]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 149
+barber[2]: says he's done with a hair-cut service for 148
+customer[148]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[150]: moves to the service chair. # waiting seats available = 0
+customer[150]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 150
+barber[4]: says he's done with a hair-cut service for 149
+customer[149]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[151]: moves to the service chair. # waiting seats available = 0
+customer[151]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 151
+customer[152]: moves to the service chair. # waiting seats available = 0
+customer[152]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 152
+barber[0]: says he's done with a hair-cut service for 150
+customer[150]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 151
+customer[151]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[153]: moves to the service chair. # waiting seats available = 0
+customer[153]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 153
+barber[1]: says he's done with a hair-cut service for 152
+customer[152]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[154]: moves to the service chair. # waiting seats available = 0
+customer[154]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 154
+barber[2]: says he's done with a hair-cut service for 153
+customer[153]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[155]: moves to the service chair. # waiting seats available = 0
+customer[155]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 155
+customer[156]: moves to the service chair. # waiting seats available = 0
+barber[3]: starts a hair-cut service for 156
+barber[4]: says he's done with a hair-cut service for 154
+customer[154]: says good-bye to the barber.
+customer[156]: wait for the hair-cut to be done
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 155
+customer[155]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[157]: moves to the service chair. # waiting seats available = 0
+customer[157]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 157
+barber[3]: says he's done with a hair-cut service for 156
+customer[156]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[158]: moves to the service chair. # waiting seats available = 0
+customer[158]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 158
+barber[1]: says he's done with a hair-cut service for 157
+customer[157]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[159]: moves to the service chair. # waiting seats available = 0
+customer[159]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 159
+barber[2]: says he's done with a hair-cut service for 158
+customer[158]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[160]: moves to the service chair. # waiting seats available = 0
+customer[160]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 160
+barber[4]: says he's done with a hair-cut service for 159
+customer[159]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[161]: moves to the service chair. # waiting seats available = 0
+customer[161]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 161
+customer[162]: moves to the service chair. # waiting seats available = 0
+barber[1]: starts a hair-cut service for 162
+barber[0]: says he's done with a hair-cut service for 160
+customer[160]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[162]: wait for the hair-cut to be done
+barber[3]: says he's done with a hair-cut service for 161
+customer[161]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[163]: moves to the service chair. # waiting seats available = 0
+customer[163]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 163
+barber[1]: says he's done with a hair-cut service for 162
+customer[162]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[164]: moves to the service chair. # waiting seats available = 0
+customer[164]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 164
+barber[2]: says he's done with a hair-cut service for 163
+customer[163]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[165]: moves to the service chair. # waiting seats available = 0
+customer[165]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 165
+barber[4]: says he's done with a hair-cut service for 164
+customer[164]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[166]: moves to the service chair. # waiting seats available = 0
+customer[166]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 166
+customer[167]: moves to the service chair. # waiting seats available = 0
+customer[167]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 167
+barber[0]: says he's done with a hair-cut service for 165
+customer[165]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[168]: moves to the service chair. # waiting seats available = 0
+customer[168]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 168
+barber[3]: says he's done with a hair-cut service for 166
+customer[166]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[169]: moves to the service chair. # waiting seats available = 0
+customer[169]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 169
+barber[1]: says he's done with a hair-cut service for 167
+customer[167]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[170]: moves to the service chair. # waiting seats available = 0
+barber[0]: starts a hair-cut service for 170
+barber[2]: says he's done with a hair-cut service for 168
+customer[168]: says good-bye to the barber.
+barber[2]: calls in another customer
+customer[171]: moves to the service chair. # waiting seats available = 0
+barber[3]: starts a hair-cut service for 171
+barber[4]: says he's done with a hair-cut service for 169
+customer[169]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[170]: wait for the hair-cut to be done
+customer[171]: wait for the hair-cut to be done
+barber[2]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 170
+customer[170]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[172]: moves to the service chair. # waiting seats available = 0
+customer[172]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 172
+barber[3]: says he's done with a hair-cut service for 171
+customer[171]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[173]: moves to the service chair. # waiting seats available = 0
+customer[173]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 173
+barber[1]: says he's done with a hair-cut service for 172
+customer[172]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[174]: moves to the service chair. # waiting seats available = 0
+customer[174]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 174
+barber[4]: says he's done with a hair-cut service for 173
+customer[173]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[175]: moves to the service chair. # waiting seats available = 0
+customer[175]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 175
+barber[2]: says he's done with a hair-cut service for 174
+customer[174]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[176]: moves to the service chair. # waiting seats available = 0
+customer[176]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 176
+customer[177]: moves to the service chair. # waiting seats available = 0
+customer[177]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 177
+barber[0]: says he's done with a hair-cut service for 175
+customer[175]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[178]: moves to the service chair. # waiting seats available = 0
+customer[178]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 178
+barber[3]: says he's done with a hair-cut service for 176
+customer[176]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 177
+customer[177]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[179]: moves to the service chair. # waiting seats available = 0
+customer[179]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 179
+barber[4]: says he's done with a hair-cut service for 178
+customer[178]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[180]: moves to the service chair. # waiting seats available = 0
+customer[180]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 180
+barber[2]: says he's done with a hair-cut service for 179
+customer[179]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[181]: moves to the service chair. # waiting seats available = 0
+customer[181]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 181
+barber[0]: says he's done with a hair-cut service for 180
+customer[182]: moves to the service chair. # waiting seats available = 0
+customer[182]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 182
+customer[180]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 181
+customer[181]: says good-bye to the barber.
+customer[183]: moves to the service chair. # waiting seats available = 0
+barber[4]: starts a hair-cut service for 183
+customer[183]: wait for the hair-cut to be done
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+customer[184]: moves to the service chair. # waiting seats available = 0
+customer[184]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 184
+barber[1]: says he's done with a hair-cut service for 182
+customer[182]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[185]: moves to the service chair. # waiting seats available = 0
+customer[185]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 185
+barber[4]: says he's done with a hair-cut service for 183
+customer[183]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[186]: moves to the service chair. # waiting seats available = 0
+customer[186]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 186
+barber[2]: says he's done with a hair-cut service for 184
+customer[184]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[187]: moves to the service chair. # waiting seats available = 0
+barber[1]: starts a hair-cut service for 187
+barber[0]: says he's done with a hair-cut service for 185
+customer[185]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+customer[187]: wait for the hair-cut to be done
+customer[188]: moves to the service chair. # waiting seats available = 0
+customer[188]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 188
+barber[3]: says he's done with a hair-cut service for 186
+customer[186]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 187
+customer[187]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[189]: moves to the service chair. # waiting seats available = 0
+customer[189]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 189
+barber[4]: says he's done with a hair-cut service for 188
+customer[188]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[190]: moves to the service chair. # waiting seats available = 0
+customer[190]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 190
+customer[191]: moves to the service chair. # waiting seats available = 0
+customer[191]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 191
+customer[192]: moves to the service chair. # waiting seats available = 0
+customer[192]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 192
+barber[2]: says he's done with a hair-cut service for 189
+customer[189]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[193]: moves to the service chair. # waiting seats available = 0
+customer[193]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 193
+barber[0]: says he's done with a hair-cut service for 190
+customer[190]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 191
+customer[191]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 192
+customer[192]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[194]: moves to the service chair. # waiting seats available = 0
+customer[194]: wait for the hair-cut to be done
+barber[2]: starts a hair-cut service for 194
+barber[4]: says he's done with a hair-cut service for 193
+customer[193]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[195]: moves to the service chair. # waiting seats available = 0
+customer[195]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 195
+barber[2]: says he's done with a hair-cut service for 194
+customer[194]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+customer[196]: moves to the service chair. # waiting seats available = 0
+customer[196]: wait for the hair-cut to be done
+barber[3]: starts a hair-cut service for 196
+customer[197]: moves to the service chair. # waiting seats available = 0
+customer[197]: wait for the hair-cut to be done
+barber[1]: starts a hair-cut service for 197
+customer[198]: moves to the service chair. # waiting seats available = 0
+customer[198]: wait for the hair-cut to be done
+barber[4]: starts a hair-cut service for 198
+barber[0]: says he's done with a hair-cut service for 195
+customer[195]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+barber[3]: says he's done with a hair-cut service for 196
+customer[196]: says good-bye to the barber.
+barber[3]: calls in another customer
+barber[3]: sleeps because of no customers.
+barber[1]: says he's done with a hair-cut service for 197
+customer[197]: says good-bye to the barber.
+barber[1]: calls in another customer
+barber[1]: sleeps because of no customers.
+customer[199]: moves to the service chair. # waiting seats available = 0
+barber[2]: starts a hair-cut service for 199
+barber[4]: says he's done with a hair-cut service for 198
+customer[198]: says good-bye to the barber.
+barber[4]: calls in another customer
+barber[4]: sleeps because of no customers.
+customer[199]: wait for the hair-cut to be done
+customer[200]: moves to the service chair. # waiting seats available = 0
+customer[200]: wait for the hair-cut to be done
+barber[0]: starts a hair-cut service for 200
+barber[2]: says he's done with a hair-cut service for 199
+customer[199]: says good-bye to the barber.
+barber[2]: calls in another customer
+barber[2]: sleeps because of no customers.
+barber[0]: says he's done with a hair-cut service for 200
+customer[200]: says good-bye to the barber.
+barber[0]: calls in another customer
+barber[0]: sleeps because of no customers.
+# customers who didn't receive a service = 0
